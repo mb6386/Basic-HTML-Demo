@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href = "style.css" rel = "stylesheet">
+<script src = "main.js"></script>
+<title>CPR Competency Quiz</title>
+<body>
+<h1>Watch this video to learn proper CPR protocol</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O_49wMpdews" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h1>Take this quiz to test your CPR Competency!</h1>
+
+<form id = "quiz" name = "quiz">
+
+<p> What is the first step when you see a teen or adult suddenly collapse?</p>
+<input type="radio" id = "mc" name="question1" value="A">A) Call 911 </br>
+<input type="radio" id = "mc" name="question1" value="B">B) Run Away </br>
+<input type="radio" id = "mc" name="question1" value="C">C) Take the victim to the hospital yourself </br>
+
+
+<p> When performing CPR, where do you put the heel of your hand? </p>
+<input type="radio" id = "mc" name="question2" value="A">A) Over the left side of the chest </br>
+<input type="radio" id = "mc" name="question2" value="B">B) Over the center of the chest </br>
+<input type="radio" id = "mc" name="question2" value="C">C) On the belly button </br>
+
+<p> How many compressions per minute should you aim for when performing CPR? </p>
+<input type="radio" id = "mc" name="question3" value="A">A) 40-60 </br>
+<input type="radio" id = "mc" name="question3" value="B">B) 70-90 </br>
+<input type="radio" id = "mc" name="question3" value="C">C) 100-120 </br>
+
+<input id = "button" type = "button" value = "Check My Answers" onclick = "check();">
+
+</form>
+<div id = "submit">
+<p id = "message"></p>
+<p id = "number_correct"></p>
+<img id = "picture">
+</div>
+</body>
+</html>
